@@ -29,7 +29,7 @@ const HomeScreen = ({ route }) => {
           country: selectedCountry || defaultCountry,
           category: 'business',
           q: 'stocks',
-          apiKey: 'f2097516e63e4fecb790485ec0c18b12',
+          apiKey: '',
         },
       });
       setArticles(response.data.articles);
