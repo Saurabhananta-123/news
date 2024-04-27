@@ -25,7 +25,7 @@ const BusinessNewsScreen = ({ route }) => {
         params: {
           country: selectedCountry || defaultCountry,
           category: 'business',
-          apiKey: 'f2097516e63e4fecb790485ec0c18b12',
+          apiKey: '',
         },
       });
       setArticles(response.data.articles);
