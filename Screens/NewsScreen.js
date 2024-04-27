@@ -15,7 +15,7 @@ const NewsScreen = () => {
       const response = await axios.get('https://newsapi.org/v2/top-headlines', {
         params: {
           country: 'us', // or any other country code
-          apiKey: 'f2097516e63e4fecb790485ec0c18b12',
+          apiKey: '',
         },
       });
       setArticles(response.data.articles);
