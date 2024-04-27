@@ -26,7 +26,7 @@ const General = ({ route }) => {
         params: {
           country: selectedCountry || defaultCountry, // Use selected country if available, otherwise default to India
           category: 'general', // Fetch only general news
-          apiKey: '2571685a84244a0484c9d1590af525bb', // Replace with your API key
+          apiKey: '', // Replace with your API key
         },
       });
       setArticles(response.data.articles);
