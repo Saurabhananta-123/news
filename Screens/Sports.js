@@ -26,7 +26,7 @@ const Sports = ({ route }) => {
           params: {
             country: countryCode,
             category: 'sports',
-            apiKey: 'f2097516e63e4fecb790485ec0c18b12',
+            apiKey: '',
           },
         });
         setArticles(response.data.articles);
