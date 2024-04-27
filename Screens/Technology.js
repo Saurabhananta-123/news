@@ -26,7 +26,7 @@ const Technology = () => {
         params: {
           country: selectedCountry || defaultCountry,
           category: 'technology', 
-          apiKey: '2571685a84244a0484c9d1590af525bb',
+          apiKey: '',
         },
       });
       setArticles(response.data.articles);
